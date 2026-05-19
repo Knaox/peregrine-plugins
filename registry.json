@@ -79,13 +79,13 @@
         {
             "id": "version-changer",
             "name": "Minecraft: Version - Changer",
-            "version": "1.1.0",
-            "description": "Change a Minecraft server's software (Vanilla, Paper, Spigot, Purpur, Forge, NeoForge, Fabric, Quilt, proxies, …) and version in one click, sourced from the public MCJars catalog. The server's egg is never changed — only the JAR is swapped. v1.1.0 : the install now runs synchronously inside the controller (`dispatchSync()`) — the response carries the final status / status_message instead of a log_id to poll, so the UI lands on the success / failure screen without a polling loop.",
+            "version": "1.1.1",
+            "description": "Change a Minecraft server's software (Vanilla, Paper, Spigot, Purpur, Forge, NeoForge, Fabric, Quilt, proxies, …) and version in one click, sourced from the public MCJars catalog. The server's egg is never changed — only the JAR is swapped. v1.1.0 : the install now runs synchronously inside the controller (`dispatchSync()`) — the response carries the final status / status_message instead of a log_id to poll, so the UI lands on the success / failure screen without a polling loop. v1.1.1 : the sidebar tab now correctly respects the admin egg whitelist (the manifest enricher was reading the pre-flatten `frontend.server_sidebar_entries` key after `PluginBootstrap::getActiveManifests()` had already hoisted entries to top-level `server_sidebar_entries`, so `requires_egg_ids` stayed at the empty plugin.json default and the tab surfaced on every server regardless of the admin config).",
             "author": "Peregrine Team",
             "official": true,
             "license": "MIT",
             "min_peregrine_version": "1.0.0",
-            "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.8/version-changer-1.1.0.zip",
+            "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.8/version-changer-1.1.1.zip",
             "homepage": "https://github.com/Knaox/Peregrine/tree/main/plugins/version-changer",
             "tags": [
                 "minecraft",
