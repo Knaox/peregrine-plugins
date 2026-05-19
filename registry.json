@@ -12,7 +12,12 @@
             "min_peregrine_version": "1.0.0-alpha.4",
             "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.6/invitations-1.3.2.zip",
             "homepage": "https://github.com/Knaox/Peregrine/tree/main/plugins/invitations",
-            "tags": ["users", "permissions", "collaboration", "default"]
+            "tags": [
+                "users",
+                "permissions",
+                "collaboration",
+                "default"
+            ]
         },
         {
             "id": "minecraft-modpack-installer",
@@ -25,7 +30,14 @@
             "min_peregrine_version": "1.0.0-alpha.4",
             "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.4/minecraft-modpack-installer-1.0.2.zip",
             "homepage": "https://github.com/Knaox/Peregrine/tree/main/plugins/minecraft-modpack-installer",
-            "tags": ["minecraft", "modpacks", "modrinth", "curseforge", "ftb", "default"]
+            "tags": [
+                "minecraft",
+                "modpacks",
+                "modrinth",
+                "curseforge",
+                "ftb",
+                "default"
+            ]
         },
         {
             "id": "ark-mods-installer",
@@ -38,7 +50,13 @@
             "min_peregrine_version": "1.0.0-alpha.4",
             "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.4/ark-mods-installer-1.0.3.zip",
             "homepage": "https://github.com/Knaox/Peregrine",
-            "tags": ["ark", "mods", "steam", "workshop", "configuration"]
+            "tags": [
+                "ark",
+                "mods",
+                "steam",
+                "workshop",
+                "configuration"
+            ]
         },
         {
             "id": "ark-asa-mods-installer",
@@ -51,7 +69,88 @@
             "min_peregrine_version": "1.0.0-alpha.4",
             "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.4/ark-asa-mods-installer-1.0.2.zip",
             "homepage": "https://github.com/Knaox/Peregrine",
-            "tags": ["ark-asa", "mods", "curseforge", "configuration"]
+            "tags": [
+                "ark-asa",
+                "mods",
+                "curseforge",
+                "configuration"
+            ]
+        },
+        {
+            "id": "version-changer",
+            "name": "Minecraft: Version - Changer",
+            "version": "1.0.0",
+            "description": "Change a Minecraft server's software (Vanilla, Paper, Spigot, Purpur, Forge, NeoForge, Fabric, Quilt, proxies, …) and version in one click, sourced from the public MCJars catalog. The server's egg is never changed — only the JAR is swapped.",
+            "author": "Peregrine Team",
+            "official": true,
+            "license": "MIT",
+            "min_peregrine_version": "1.0.0",
+            "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.7/version-changer-1.0.0.zip",
+            "homepage": "https://github.com/Knaox/Peregrine/tree/main/plugins/version-changer",
+            "tags": [
+                "minecraft",
+                "versions",
+                "mcjars",
+                "default"
+            ]
+        },
+        {
+            "id": "minecraft-mods-installer",
+            "name": "Minecraft: Mods - Installer",
+            "version": "1.0.0",
+            "description": "Browse, install and remove Minecraft mods (Forge, NeoForge, Fabric, Quilt) directly from the player panel. CurseForge-backed catalog with per-egg gating and a singleton admin config.",
+            "author": "Peregrine Team",
+            "official": true,
+            "license": "MIT",
+            "min_peregrine_version": "1.0.0",
+            "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.7/minecraft-mods-installer-1.0.0.zip",
+            "homepage": "https://github.com/Knaox/Peregrine/tree/main/plugins/minecraft-mods-installer",
+            "tags": [
+                "minecraft",
+                "mods",
+                "forge",
+                "fabric",
+                "curseforge",
+                "default"
+            ]
+        },
+        {
+            "id": "minecraft-plugins-installer",
+            "name": "Minecraft: Plugins - Installer",
+            "version": "1.0.0",
+            "description": "Browse, install and remove Bukkit-style Minecraft plugins (Paper, Spigot, Purpur, Folia, …) directly from the player panel. CurseForge-backed catalog with per-egg gating and a singleton admin config.",
+            "author": "Peregrine Team",
+            "official": true,
+            "license": "MIT",
+            "min_peregrine_version": "1.0.0",
+            "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.7/minecraft-plugins-installer-1.0.0.zip",
+            "homepage": "https://github.com/Knaox/Peregrine/tree/main/plugins/minecraft-plugins-installer",
+            "tags": [
+                "minecraft",
+                "plugins",
+                "bukkit",
+                "paper",
+                "curseforge",
+                "default"
+            ]
+        },
+        {
+            "id": "hytale-mods-installer",
+            "name": "Hytale: Mods - Installer",
+            "version": "1.0.0",
+            "description": "Browse, install and remove Hytale mods directly from the player panel. CurseForge-backed catalog with per-egg gating and a singleton admin config.",
+            "author": "Peregrine Team",
+            "official": true,
+            "license": "MIT",
+            "min_peregrine_version": "1.0.0",
+            "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.7/hytale-mods-installer-1.0.0.zip",
+            "homepage": "https://github.com/Knaox/Peregrine/tree/main/plugins/hytale-mods-installer",
+            "tags": [
+                "hytale",
+                "mods",
+                "curseforge",
+                "default"
+            ]
         }
     ]
 }
