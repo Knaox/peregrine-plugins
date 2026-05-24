@@ -22,13 +22,13 @@
         {
             "id": "easy-configuration",
             "name": "Easy Configuration",
-            "version": "1.2.1",
-            "description": "Edit your server's game configuration files (server.properties, GameUserSettings.ini, config.yml, \u2026) through a clean Nitrado-style UI \u2014 sliders, toggles, dropdowns \u2014 instead of raw text, with a lossless round-trip that rewrites only the values you changed (comments, ordering and whitespace preserved; properties / ini / yaml / json / toml). Copy a configuration to other servers of the same egg, and schedule temporary value boosts (multiply or divide), optionally recurring (daily / weekly / monthly). Templates are pure, shareable JSON render schemas managed from the admin (/plugins/easy-configuration/manage). Ships with Peregrine and auto-activates on setup, like Invitations. Boosts require the Laravel scheduler (easy-config:check-boosts every minute). v1.2.0 \u2014 read-only browsable editor while the server is running, clearer state distinguishing an unreachable Wings daemon from absent files, an accessibility pass, a Vitest frontend test suite, and an AI prompt generator tab in the template editor. v1.2.1 \u2014 fixes the official-template catalog import failing in production (the import route 405'd under cached routes).",
+            "version": "1.2.2",
+            "description": "Edit your server's game configuration files (server.properties, GameUserSettings.ini, config.yml, \u2026) through a clean Nitrado-style UI \u2014 sliders, toggles, dropdowns \u2014 instead of raw text, with a lossless round-trip that rewrites only the values you changed (comments, ordering and whitespace preserved; properties / ini / yaml / json / toml). Copy a configuration to other servers of the same egg, and schedule temporary value boosts (multiply or divide), optionally recurring (daily / weekly / monthly). Templates are pure, shareable JSON render schemas managed from the admin (/plugins/easy-configuration/manage). Ships with Peregrine and auto-activates on setup, like Invitations. Boosts require the Laravel scheduler (easy-config:check-boosts every minute). v1.2.0 \u2014 read-only browsable editor while the server is running, clearer state distinguishing an unreachable Wings daemon from absent files, an accessibility pass, a Vitest frontend test suite, and an AI prompt generator tab in the template editor. v1.2.2 \u2014 fixes importing the official template catalog AND editing those templates in production (route resolution under cached routes).",
             "author": "Peregrine Team",
             "official": true,
             "license": "MIT",
             "min_peregrine_version": "1.0.0",
-            "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.13b/easy-configuration-1.2.1.zip",
+            "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.13c/easy-configuration-1.2.2.zip",
             "homepage": "https://github.com/Knaox/Peregrine/tree/main/plugins/easy-configuration",
             "tags": [
                 "configuration",
