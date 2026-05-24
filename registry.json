@@ -22,13 +22,13 @@
         {
             "id": "easy-configuration",
             "name": "Easy Configuration",
-            "version": "1.0.0",
-            "description": "Edit your server's game configuration files (server.properties, GameUserSettings.ini, config.yml, \u2026) through a clean Nitrado-style UI \u2014 sliders, toggles, dropdowns \u2014 instead of raw text, with a lossless round-trip that rewrites only the values you changed (comments, ordering and whitespace preserved; properties / ini / yaml / json / toml). Copy a configuration to other servers of the same egg via a multi-step dialog (targets / files / preview), run as a background job with per-server results. Schedule temporary value boosts over a date window, optionally recurring (daily / weekly / monthly) \u2014 the server is cleanly stopped, the values written and restarted. Templates are pure, shareable JSON render schemas managed from the admin (/plugins/easy-configuration/manage). Ships with Peregrine and auto-activates on setup, like Invitations. Boosts require the Laravel scheduler (easy-config:check-boosts runs every minute).",
+            "version": "1.1.0",
+            "description": "Edit your server's game configuration files (server.properties, GameUserSettings.ini, config.yml, \u2026) through a clean Nitrado-style UI \u2014 sliders, toggles, dropdowns \u2014 instead of raw text, with a lossless round-trip that rewrites only the values you changed (comments, ordering and whitespace preserved; properties / ini / yaml / json / toml). Copy a configuration to other servers of the same egg via a multi-step dialog (targets / files / preview), run as a background job with per-server results. Schedule temporary value boosts over a date window, optionally recurring (daily / weekly / monthly) \u2014 the server is cleanly stopped, the values written and restarted. Templates are pure, shareable JSON render schemas managed from the admin (/plugins/easy-configuration/manage). Ships with Peregrine and auto-activates on setup, like Invitations. Boosts require the Laravel scheduler (easy-config:check-boosts runs every minute). v1.1.0 - one-click import of the official template catalog (ARK ASA/ASE, Astroneer, Hytale, Minecraft Paper, Palworld, Satisfactory, Sons of the Forest, The Forest), template-driven collapse with per-file / per-section expanded-by-default (uniform on every template, all sections forced collapsed while the server runs), env-variable linking sourced from an egg instead of a live server, an editable file header with add-file in the visual editor, and config files absent on the server hidden from the editor entirely.",
             "author": "Peregrine Team",
             "official": true,
             "license": "MIT",
             "min_peregrine_version": "1.0.0",
-            "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.12/easy-configuration-1.0.0.zip",
+            "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.12/easy-configuration-1.1.0.zip",
             "homepage": "https://github.com/Knaox/Peregrine/tree/main/plugins/easy-configuration",
             "tags": [
                 "configuration",
