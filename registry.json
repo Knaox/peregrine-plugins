@@ -40,6 +40,24 @@
             ]
         },
         {
+            "id": "peregrine-phpmyadmin",
+            "name": "phpMyAdmin Integration",
+            "version": "1.0.0",
+            "description": "Adds a one-click \"Open in phpMyAdmin\" button to every server database, with automatic login via phpMyAdmin's signon mechanism — or a manual-login mode where the user types the credentials (revealed in the Databases tab). phpMyAdmin is self-hosted by the admin; the plugin ships everything else: short-lived one-shot signon tokens, the credentials bridge, the React button, and a bilingual (FR/EN) in-page install guide with copy-to-clipboard snippets (the SignonScript and the config.inc.php block, pre-filled with your Peregrine URL and shared secret). Configured from /admin/pma-settings (PMA URL, shared secret with one-click regenerate, token TTL, signon server index, IP allowlist, reachability + ready-to-paste curl tests). Ships with Peregrine and auto-activates on setup, like Invitations. Security: one-shot tokens hashed at rest with a short TTL, constant-time shared-secret check that fails closed, optional IP allowlist, gated by the database.view_password permission, per-user rate limit, and a launch/redeem audit log.",
+            "author": "Peregrine Team",
+            "official": true,
+            "license": "MIT",
+            "min_peregrine_version": "1.0.0-alpha.15",
+            "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.15/peregrine-phpmyadmin-1.0.0.zip",
+            "homepage": "https://github.com/Knaox/Peregrine/tree/main/plugins/peregrine-phpmyadmin",
+            "tags": [
+                "database",
+                "phpmyadmin",
+                "mysql",
+                "default"
+            ]
+        },
+        {
             "id": "minecraft-modpack-installer",
             "name": "Minecraft: Modpack - Installer",
             "version": "1.1.0",
