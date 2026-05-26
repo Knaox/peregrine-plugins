@@ -193,13 +193,13 @@
     {
       "id": "peregrine-player-counter",
       "name": "Player Counter",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "description": "Shows the live connected-player count (and up to 5 player names) on each server overview, with automatic detection of the full GameDig catalogue — 350+ games including Minecraft (Java + Bedrock), Valheim, Sons of the Forest, ARK (Survival Ascended & Evolved), Palworld, Rust, Enshrouded, V Rising, Project Zomboid, 7 Days to Die, Satisfactory and more. Counts are read through a small self-hosted GameDig sidecar (A2S/Steam/Minecraft); games with no usable wire query (ARK, Palworld) are read over RCON. When a game needs a dedicated query or RCON port that isn't reachable, the server card shows a one-click \"Resolve\" button that allocates the port, configures the matching server variable and restarts — your choice, never automatic. Card visibility is controlled by an egg whitelist (empty = every egg). Ships a bilingual (FR/EN) Docker setup guide for the sidecar.",
       "author": "Peregrine Team",
       "official": true,
       "license": "MIT",
       "min_peregrine_version": "1.0.0-alpha.16",
-      "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.16/peregrine-player-counter-1.2.0.zip",
+      "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.16/peregrine-player-counter-1.2.1.zip",
       "homepage": "https://github.com/Knaox/Peregrine",
       "tags": [
         "players",
