@@ -199,7 +199,7 @@
             "official": true,
             "license": "MIT",
             "min_peregrine_version": "1.0.0-alpha.16",
-            "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.15/peregrine-player-counter-1.0.0.zip",
+            "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.16/peregrine-player-counter-1.0.0.zip",
             "homepage": "https://github.com/Knaox/Peregrine",
             "tags": [
                 "players",
