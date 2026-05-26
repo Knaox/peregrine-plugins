@@ -189,6 +189,25 @@
                 "curseforge",
                 "default"
             ]
+        },
+        {
+            "id": "peregrine-player-counter",
+            "name": "Player Counter",
+            "version": "1.0.0",
+            "description": "Shows the live connected-player count (and up to 5 player names) on each server overview, for six tested games: Minecraft (Java + Bedrock), Valheim, 7 Days to Die, ARK: Survival Ascended, ARK: Survival Evolved and Palworld. Minecraft / Valheim / 7 Days to Die are read through a small self-hosted GameDig sidecar (A2S); ARK (both) and Palworld are read over RCON (ListPlayers / ShowPlayers) since they expose no usable wire query — needs RCON enabled + an admin password, with a one-click \"Resolve RCON\" helper that allocates the port when it is not reachable. Card visibility is controlled by an egg whitelist (Player Counter settings, Visibility tab): empty = every egg, otherwise only the listed eggs; any other game still gets a best-effort generic A2S probe. The supported-games list is shown as an informational notice. Ships a bilingual (FR/EN) Docker setup guide for the sidecar.",
+            "author": "Peregrine Team",
+            "official": true,
+            "license": "MIT",
+            "min_peregrine_version": "1.0.0-alpha.16",
+            "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.15/peregrine-player-counter-1.0.0.zip",
+            "homepage": "https://github.com/Knaox/Peregrine",
+            "tags": [
+                "players",
+                "monitoring",
+                "steam",
+                "minecraft",
+                "rcon"
+            ]
         }
     ]
 }
