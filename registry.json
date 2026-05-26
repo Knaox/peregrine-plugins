@@ -206,7 +206,8 @@
                 "monitoring",
                 "steam",
                 "minecraft",
-                "rcon"
+                "rcon",
+                "default"
             ]
         }
     ]
