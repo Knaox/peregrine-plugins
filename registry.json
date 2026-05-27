@@ -135,13 +135,13 @@
     {
       "id": "minecraft-mods-installer",
       "name": "Minecraft: Mods - Installer",
-      "version": "1.1.1",
-      "description": "Browse, install and remove Minecraft mods (Forge, NeoForge, Fabric, Quilt) directly from the player panel. CurseForge-backed catalog with per-egg gating and a singleton admin config. v1.1.0 : the loader banner now uses the new core `App\\Services\\Loader\\FallbackLoaderResolver` (filesystem probe → modpack-install row → egg name) when the MCJars fingerprint can't run, so it appears for every detectable server — hidden only when no source has a confident answer (no more leftover \"unknown server runtime\" placeholder). v1.1.1 : safe-save pattern for the CurseForge API key — the admin form now blanks the masked password field on fill and treats blank input on save as \"keep existing\", so re-saving the page with a browser whose password manager clears the masked input no longer wipes the stored key (mirrors the modpack-installer pattern).",
+      "version": "1.2.0",
+      "description": "Browse, install and remove Minecraft mods (Forge, NeoForge, Fabric, Quilt) directly from the player panel. CurseForge-backed catalog with per-egg gating and a singleton admin config. v1.1.0 : the loader banner now uses the new core `App\\Services\\Loader\\FallbackLoaderResolver` (filesystem probe → modpack-install row → egg name) when the MCJars fingerprint can't run, so it appears for every detectable server — hidden only when no source has a confident answer (no more leftover \"unknown server runtime\" placeholder). v1.1.1 : safe-save pattern for the CurseForge API key — the admin form now blanks the masked password field on fill and treats blank input on save as \"keep existing\", so re-saving the page with a browser whose password manager clears the masked input no longer wipes the stored key (mirrors the modpack-installer pattern). v1.2.0 — adds Modrinth as a second catalog source alongside CurseForge, selectable from a source picker in the Browse toolbar (Modrinth needs no API key). Full parity per source: Minecraft version list, loader / version / sort filters, the version-picker modal and install all behave the same. A provider abstraction (ModSource enum + registry) normalises both catalogs to one shape, and item IDs are now strings to accommodate Modrinth's alphanumeric project / version ids. New admin controls: enable / disable Modrinth and choose the default source.",
       "author": "Peregrine Team",
       "official": true,
       "license": "MIT",
       "min_peregrine_version": "1.0.0-alpha.8",
-      "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.8/minecraft-mods-installer-1.1.1.zip",
+      "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.18/minecraft-mods-installer-1.2.0.zip",
       "homepage": "https://github.com/Knaox/Peregrine/tree/main/plugins/minecraft-mods-installer",
       "tags": [
         "minecraft",
@@ -149,6 +149,7 @@
         "forge",
         "fabric",
         "curseforge",
+        "modrinth",
         "default"
       ]
     },
