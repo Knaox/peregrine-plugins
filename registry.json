@@ -22,13 +22,13 @@
     {
       "id": "easy-configuration",
       "name": "Easy Configuration",
-      "version": "1.4.1",
+      "version": "1.4.2",
       "description": "Edit your server's game configuration files (server.properties, GameUserSettings.ini, config.yml, …) through a clean Nitrado-style UI — sliders, toggles, dropdowns — with a lossless round-trip that rewrites only the values you changed. Copy a configuration to other servers of the same egg, and schedule temporary value boosts (multiply or divide), optionally recurring. Templates are pure, shareable JSON render schemas managed from the admin. Ships with Peregrine and auto-activates on setup, like Invitations. v1.2.0 — read-only browsable editor while running, unreachable-vs-absent distinction, accessibility pass, Vitest tests, AI prompt generator. v1.2.2 — fixes importing and editing the official template catalog in production (route resolution under cached routes). v1.2.3 — the config editor stays usable when a single file can't be read (the other configs are still shown instead of blanking the whole section), and the bundled official Hytale template was refreshed (correct default-world path, fully bilingual server + world schema). v1.3.0 — opts into the panel's unified save bar (config edits save together with env-variable edits in one click; falls back to its own floating bar on older panels), and fixes boost-mode tooltips (« Inclure dans le boost », × / ÷) overflowing and being clipped at the card's left edge in 2- and 3-column layouts. v1.4.0 — adds XML support: a generic `xml` format (element text as dotted paths, attributes as `path@attr`) and a dedicated `xml-property` format for files built from `<property name=\"K\" value=\"V\"/>` rows — 7 Days to Die's serverconfig.xml and the like — surfacing one editable field per setting (sectioned by parent element) instead of every name/value attribute twice; both rewrite losslessly and the server-import flow auto-detects which to use. Also adds a per-template « require the server to be off to edit » toggle (on by default) that, when turned off, lets players edit that template's values while the server is running. v1.4.1 — fixes a stale-read after saving: the editor now refetches the live config file once a save succeeds, so a saved value no longer reverts to its previous value when you navigate away and back (no hard refresh needed).",
       "author": "Peregrine Team",
       "official": true,
       "license": "MIT",
       "min_peregrine_version": "1.0.0",
-      "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.16/easy-configuration-1.4.1.zip",
+      "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.19/easy-configuration-1.4.2.zip",
       "homepage": "https://github.com/Knaox/Peregrine/tree/main/plugins/easy-configuration",
       "tags": [
         "configuration",
@@ -117,13 +117,13 @@
     {
       "id": "version-changer",
       "name": "Minecraft: Version - Changer",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "description": "Change a Minecraft server's software (Vanilla, Paper, Spigot, Purpur, Forge, NeoForge, Fabric, Quilt, proxies, …) and version in one click, sourced from the public MCJars catalog. The server's egg is never changed — only the JAR is swapped. v1.1.0 : the install now runs synchronously inside the controller (`dispatchSync()`) — the response carries the final status / status_message instead of a log_id to poll, so the UI lands on the success / failure screen without a polling loop. v1.1.1 : the sidebar tab now correctly respects the admin egg whitelist (the manifest enricher was reading the pre-flatten `frontend.server_sidebar_entries` key after `PluginBootstrap::getActiveManifests()` had already hoisted entries to top-level `server_sidebar_entries`, so `requires_egg_ids` stayed at the empty plugin.json default and the tab surfaced on every server regardless of the admin config).",
       "author": "Peregrine Team",
       "official": true,
       "license": "MIT",
       "min_peregrine_version": "1.0.0",
-      "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.8/version-changer-1.1.1.zip",
+      "download_url": "https://github.com/Knaox/Peregrine/releases/download/v1.0.0-alpha.19/version-changer-1.1.2.zip",
       "homepage": "https://github.com/Knaox/Peregrine/tree/main/plugins/version-changer",
       "tags": [
         "minecraft",
